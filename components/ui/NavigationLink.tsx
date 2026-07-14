@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 type NavigationLinkProps = {
   href: string;
@@ -13,7 +13,7 @@ export default function NavigationLink({
   return (
     <Link
       href={href}
-      className="text-sm font-medium transition-colors hover:opacity-70"
+      className="text-sm font-medium uppercase tracking-wider text-espresso transition-colors duration-300 hover:text-coffee"
     >
       {children}
     </Link>

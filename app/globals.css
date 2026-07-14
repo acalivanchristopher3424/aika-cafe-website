@@ -6,10 +6,17 @@
 }
 
 @theme inline {
+  /* Existing */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Grounded Cafe Brand Colors */
+  --color-cream: #d0b392;
+  --color-coffee: #986e31;
+  --color-espresso: #3e2814;
 }
 
 @media (prefers-color-scheme: dark) {

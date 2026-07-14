@@ -3,38 +3,28 @@ export default function Hero() {
     <section className="relative h-[90vh]">
 
       {/* Hero Image Placeholder */}
-      <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-700 via-stone-800 to-black">
+      <div className="absolute inset-0 flex items-center justify-center bg-espresso">
 
-        <div className="text-center text-white">
-            <p className="rounded-md border border-white/20 bg-black/20 px-6 py-3 text-lg tracking-widest">
-                HERO PHOTO
+        <div className="text-center">
+          <div className="rounded-xl border-2 border-dashed border-cream px-12 py-16">
+            <p className="text-xl font-semibold tracking-[0.25em] text-cream">
+              HERO PHOTO
             </p>
 
-          <p className="mt-2 text-sm opacity-70">
-            Replace with cafe photo
-          </p>
+            <p className="mt-4 text-sm text-cream/70">
+              Replace with cafe photo
+            </p>
+          </div>
         </div>
 
       </div>
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/20" />
 
-      {/* Hero Content */}
-      <div className="relative z-10 flex h-full flex-col items-center justify-center text-white">
-
-        {/* <p className="mb-4 uppercase tracking-[0.35em] text-sm">
-          Coffee by Day • Pub by Night
-        </p>
-
-        <h1 className="text-center text-6xl font-bold md:text-7xl">
-          Grounded Cafe & Pub
-        </h1>
-
-        <p className="mt-6 text-lg">
-          Great coffee. Good food. Better company.
-        </p> */}
-
+      {/* Future Hero Content */}
+      <div className="relative z-10 flex h-full items-center justify-center">
+        {/* Hero text will go here later */}
       </div>
 
     </section>

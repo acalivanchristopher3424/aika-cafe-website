@@ -10,7 +10,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 shadow-sm backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-cream bg-white/95 shadow-sm backdrop-blur">
       <nav className="mx-auto flex h-28 max-w-7xl items-center justify-between px-8">
         <Link href="/" className="transition hover:opacity-80">
           <Image
@@ -27,7 +27,7 @@ export default function Navbar() {
           <div
             className={
               pathname === "/"
-                ? "border-b-2 border-black pb-1"
+                ? "border-b-2 border-coffee pb-1"
                 : ""
             }
           >
@@ -37,7 +37,7 @@ export default function Navbar() {
           <div
             className={
               pathname === "/menu"
-                ? "border-b-2 border-black pb-1"
+                ? "border-b-2 border-coffee pb-1"
                 : ""
             }
           >
@@ -46,8 +46,18 @@ export default function Navbar() {
 
           <div
             className={
+              pathname === "/events"
+                ? "border-b-2 border-coffee pb-1"
+                : ""
+            }
+          >
+            <NavigationLink href="/events">Events</NavigationLink>
+          </div>
+
+          <div
+            className={
               pathname === "/whats-new"
-                ? "border-b-2 border-black pb-1"
+                ? "border-b-2 border-coffee pb-1"
                 : ""
             }
           >

@@ -11,14 +11,16 @@ export default function MenuCard({
   price,
 }: MenuCardProps) {
   return (
-    <article className="overflow-hidden rounded-2xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+    <article className="overflow-hidden rounded-2xl border border-coffee bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
-      <div className="flex h-64 items-center justify-center bg-stone-200 text-stone-500">
+      {/* Placeholder Image */}
+      <div className="flex h-64 items-center justify-center bg-cream/30 text-coffee">
         Image Placeholder
       </div>
 
+      {/* Content */}
       <div className="space-y-3 p-6">
-        <h3 className="text-2xl font-bold">
+        <h3 className="text-2xl font-bold text-espresso">
           {name}
         </h3>
 
@@ -26,7 +28,7 @@ export default function MenuCard({
           {description}
         </p>
 
-        <p className="text-lg font-semibold text-stone-900">
+        <p className="text-lg font-bold text-coffee">
           {price}
         </p>
       </div>
