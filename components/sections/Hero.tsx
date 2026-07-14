@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <section className="relative h-[90vh]">
+    <section
+      id="home"
+      className="relative h-[90vh]"
+    >
 
       {/* Hero Image Placeholder */}
       <div className="absolute inset-0 flex items-center justify-center bg-espresso">

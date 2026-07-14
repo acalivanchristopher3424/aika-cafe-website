@@ -1,6 +1,9 @@
 export default function FeaturedDrinks() {
   return (
-    <section className="mx-auto max-w-7xl px-8 py-24">
+    <section
+      id="featured-drinks"
+      className="mx-auto max-w-7xl px-8 py-24"
+    >
       <div className="mb-12 text-center">
         <h2 className="text-4xl font-bold text-espresso">
           Featured Drinks

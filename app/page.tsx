@@ -1,8 +1,10 @@
-import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
-import FeaturedDrinks from "@/components/sections/FeaturedDrinks";
 import Hero from "@/components/sections/Hero";
-import PromoUpdates from "@/components/sections/PromoUpdates";
+import FeaturedDrinks from "@/components/sections/FeaturedDrinks";
+import WhatsNew from "@/components/sections/WhatsNew";
+import Events from "@/components/sections/Events";
+import Reviews from "@/components/sections/Reviews";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <FeaturedDrinks />
-      <PromoUpdates />
+      <WhatsNew />
+      <Events />
+      <Reviews />
       <Footer />
     </>
   );

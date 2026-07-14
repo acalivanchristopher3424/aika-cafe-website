@@ -44,26 +44,22 @@ export default function Navbar() {
             <NavigationLink href="/menu">Menu</NavigationLink>
           </div>
 
-          <div
-            className={
-              pathname === "/events"
-                ? "border-b-2 border-coffee pb-1"
-                : ""
-            }
-          >
-            <NavigationLink href="/events">Events</NavigationLink>
+          <div>
+            <Link
+              href="/#whats-new"
+              className="text-sm font-medium uppercase tracking-wider transition-colors hover:text-coffee"
+            >
+              What's New
+            </Link>
           </div>
 
-          <div
-            className={
-              pathname === "/whats-new"
-                ? "border-b-2 border-coffee pb-1"
-                : ""
-            }
-          >
-            <NavigationLink href="/whats-new">
-              What's New
-            </NavigationLink>
+          <div>
+            <Link
+              href="/#events"
+              className="text-sm font-medium uppercase tracking-wider transition-colors hover:text-coffee"
+            >
+              Events
+            </Link>
           </div>
         </div>
       </nav>
